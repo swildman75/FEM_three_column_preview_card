@@ -36,7 +36,6 @@ body {
   max-width: 90%;
   margin: 0 auto;
   min-height: 400px;
-  flex-basis: auto;
 }
 
 .container a {
@@ -107,6 +106,7 @@ footer a {
     align-items: center;
     min-height: 100vh;
     padding: 0 15em;
+    flex-basis: auto;
   }
 
   .sedans {
