@@ -16,11 +16,89 @@
 
 body {
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--veryLightGray);
+}
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  max-width: 300px;
+  min-height: 400px;
+  padding: 40px;
+  color: var(--transparentWhite);
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.sedans button {
+  color: var(--brightOrange);
+}
+
+.sedans {
+  background-color: var(--brightOrange);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.suvs {
+  background-color: var(--darkCyan);
+}
+
+.suvs button {
+  color: var(--darkCyan);
+}
+
+.luxury {
+  background-color: var(--veryDarkCyan);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.luxury button {
+  color: var(--veryDarkCyan);
+}
+
+button {
+  width: 8rem;
+  height: 2.7rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--transparentWhite);
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid var(--transparentWhite);
+  background-color: transparent;
+  color: var(--transparentWhite);
 }
 
 footer {
   font-size: 11px;
   text-align: center;
+  margin-top: 20px;
 }
 
 footer a {
