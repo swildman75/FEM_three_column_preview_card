@@ -41,7 +41,7 @@ body {
 .container a {
   text-decoration: none;
   background-color: var(--clr-transparentWhite);
-  border-radius: 20px;
+  border-radius: 50px;
   padding: 1em 2em;
 }
 
